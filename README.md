@@ -1,5 +1,5 @@
  
-# Flask App with MySQL Docker Setup
+# Docker container app with Flask and MySQL database
 
 This is a simple Flask app that interacts with a MySQL database. The app allows users to submit messages, which are then stored in the database and displayed on the frontend.
 
@@ -123,9 +123,7 @@ docker run -d \
 
 - This is a basic setup for demonstration purposes. In a production environment, you should follow best practices for security and performance.
 
-- Be cautious when executing SQL queries directly. Validate and sanitize user inputs to prevent vulnerabilities like SQL injection.
-
-- If you encounter issues, check Docker logs and error messages for troubleshooting.
+- - If you encounter issues, check Docker logs and error messages for troubleshooting.
 
 ```
 
